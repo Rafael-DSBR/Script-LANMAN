@@ -1,4 +1,4 @@
-# 🕸️ Script Lanman (Network Protocol Hardener)
+# 🐊 Script Lanman 🐊
 
 
 <div align="center">
