@@ -36,3 +36,8 @@ The script utilizes `winreg` for low-level system calls and `customtkinter` for 
 | **Guest Access** | `HKLM\...\LanmanWorkstation\AllowInsecureGuestAuth` | `1` (Enable) |
 | **SMB Signing** | `HKLM\...\LanmanWorkstation\RequireSecuritySignature` | `0` (Disable) |
 | **Printer RPC** | `HKLM\...\Control\Print\RpcAuthnLevelPrivacyEnabled` | `0` (Disable) |
+
+⚠️ Security Disclaimer
+This tool is designed for Intranet/Legacy environments where compatibility outweighs strict security. Enabling NTLMv1 and disabling SMB Signing may expose the network to Man-in-the-Middle attacks. Use only in trusted internal networks.
+
+Author: Rafael Cavalheiro QA Automation Engineer & Tier 3 Support Lead
